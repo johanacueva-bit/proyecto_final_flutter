@@ -1,0 +1,25 @@
+name: proyecto_final
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+  sqflite:
+  path: ^1.9.1
+  uuid: ^4.5.1
+  firebase_core: ^3.5.0
+  cloud_firestore: ^5.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
